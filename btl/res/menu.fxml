@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="364.0" prefWidth="948.0" style="-fx-background-color: RGB(75,184,39);" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uet.oop.bomberman.BombermanGame">
+   <children>
+      <ImageView fitHeight="428.0" fitWidth="1138.0" layoutX="1.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@textures/mL2079_f9c1a12e-2f4e-498b-ba70-3a1329f620ca_1024x1024.jpg" />
+         </image>
+      </ImageView>
+      <Button alignment="BASELINE_LEFT" layoutX="14.0" layoutY="135.0" mnemonicParsing="false" onAction="#clickPlay" prefHeight="68.0" prefWidth="254.0" style="-fx-background-color: RGB(14,88,14);" text="PLAY" textFill="WHITE">
+         <font>
+            <Font name="Fugaz One" size="30.0" />
+         </font></Button>
+      <Button alignment="BASELINE_LEFT" layoutX="14.0" layoutY="231.0" mnemonicParsing="false" onAction="#clickIns" prefHeight="68.0" prefWidth="254.0" style="-fx-background-color: RGB(14,88,14);" text="INSTRUCTION" textFill="WHITE">
+         <font>
+            <Font name="Fugaz One" size="30.0" />
+         </font>
+      </Button>
+      <Button alignment="BASELINE_LEFT" layoutX="14.0" layoutY="329.0" mnemonicParsing="false" onAction="#clickInf" prefHeight="68.0" prefWidth="254.0" style="-fx-background-color: RGB(14,88,14);" text="INFORMATION" textFill="WHITE">
+         <font>
+            <Font name="Fugaz One" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

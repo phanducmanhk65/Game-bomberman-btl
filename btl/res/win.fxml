@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="428.0" prefWidth="1138.0" style="-fx-background-color: RGB(255,255,255);" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uet.oop.bomberman.BombermanGame">
+   <children>
+      <ImageView fitHeight="431.0" fitWidth="1097.0" layoutX="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@textures/c339eff3a9bcb30295f8598cc4810464.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="654.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WIN GAME !!!" wrappingWidth="425.3408203125">
+         <font>
+            <Font name="Bowlby One SC Regular" size="53.0" />
+         </font>
+      </Text>
+      <Button layoutX="740.0" layoutY="106.0" mnemonicParsing="false" onAction="#clickMenuWin" prefHeight="71.0" prefWidth="248.0" style="-fx-background-color: RGB(66,244,89);" text="Menu">
+         <font>
+            <Font name="Gill Sans MT" size="37.0" />
+         </font>
+      </Button>
+      <Button layoutX="740.0" layoutY="204.0" mnemonicParsing="false" onAction="#clickLevel1" prefHeight="71.0" prefWidth="248.0" style="-fx-background-color: RGB(66,244,89);" text="Level 1">
+         <font>
+            <Font name="Gill Sans MT" size="37.0" />
+         </font>
+      </Button>
+      <Button layoutX="740.0" layoutY="300.0" mnemonicParsing="false" onAction="#clickLevel2" prefHeight="71.0" prefWidth="248.0" style="-fx-background-color: RGB(66,244,89);" text="Level 2">
+         <font>
+            <Font name="Gill Sans MT" size="37.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

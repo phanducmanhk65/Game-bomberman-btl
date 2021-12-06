@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="416.0" prefWidth="992.0" style="-fx-background-color: RGB(255,255,255);" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uet.oop.bomberman.BombermanGame">
+   <children>
+      <ImageView fitHeight="433.0" fitWidth="495.0" layoutX="61.0" layoutY="-17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@textures/c1209135cee7d7317cb8fd5492180af2.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="215.0" layoutX="470.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" width="447.0" />
+      <ImageView fitHeight="231.0" fitWidth="427.0" layoutX="480.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@textures/ins.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="179.0" fitWidth="145.0" layoutX="839.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@textures/Bomber_Man_Generation.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="606.0" layoutY="315.0" mnemonicParsing="false" onAction="#clickMenuIns" prefHeight="44.0" prefWidth="175.0" style="-fx-background-color: RGB(255,55,0);" text="Menu" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

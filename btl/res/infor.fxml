@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="416.0" prefWidth="992.0" style="-fx-background-color: RGB(255,255,255);" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uet.oop.bomberman.BombermanGame">
+   <children>
+      <ImageView fitHeight="261.0" fitWidth="272.0" layoutX="202.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@textures/White_5.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="276.0" fitWidth="214.0" layoutX="516.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@textures/WhiteBomber_Vector01.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="254.0" fitWidth="181.0" layoutX="796.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@textures/Bombermanz.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd41f" height="64.0" layoutX="4.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="152.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8ff1f" height="64.0" layoutY="325.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="152.0" />
+      <Label layoutX="9.0" layoutY="330.0" text="DOUBLE">
+         <font>
+            <Font name="Bowlby One SC Regular" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="159.0" fitWidth="103.0" layoutX="24.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@textures/Bomber_Man_Generation.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="28.0" layoutY="280.0" prefHeight="36.0" prefWidth="123.0" style="-fx-background-color: =RGB(156,222,35);" text="Author">
+         <font>
+            <Font name="Courier New" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="243.0" layoutY="298.0" text="Nguyen Ha Trang">
+         <font>
+            <Font name="Cookie-Regular" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="287.0" layoutY="339.0" text="20020482">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="374.0" text="UET - VNU">
+         <font>
+            <Font name="Footlight MT Light" size="17.0" />
+         </font>
+      </Label>
+      <Line endX="10.20001220703125" layoutX="368.0" layoutY="365.0" startX="-100.0" />
+      <Label layoutX="783.0" layoutY="299.0" text="Nguyen Thi Thu Trang">
+         <font>
+            <Font name="Cookie-Regular" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="849.0" layoutY="342.0" text="20020483">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="846.0" layoutY="377.0" text="UET - VNU">
+         <font>
+            <Font name="Footlight MT Light" size="17.0" />
+         </font>
+      </Label>
+      <Line endX="10.20001220703125" layoutX="930.0" layoutY="368.0" startX="-100.0" />
+      <Label layoutX="547.0" layoutY="313.0" text="Phan Duc Manh">
+         <font>
+            <Font name="Cookie-Regular" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="586.0" layoutY="354.0" text="20020441">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="583.0" layoutY="389.0" text="UET - VNU">
+         <font>
+            <Font name="Footlight MT Light" size="17.0" />
+         </font>
+      </Label>
+      <Line endX="10.20001220703125" layoutX="667.0" layoutY="380.0" startX="-100.0" />
+      <Button layoutX="5.0" layoutY="7.0" mnemonicParsing="false" onAction="#clickBackInf" style="-fx-background-color: RGB(145,25,32);" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="416.0" prefWidth="992.0" style="-fx-background-color: RGB(255,255,255);" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uet.oop.bomberman.BombermanGame">
+   <children>
+      <ImageView fitHeight="416.0" fitWidth="992.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@textures/66fb3805a15efd4b3107d54dd6e6b378.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="560.0" layoutY="60.0" text="You're DEAD!!">
+         <font>
+            <Font name="Bell MT Bold" size="54.0" />
+         </font>
+      </Label>
+      <Button layoutX="619.0" layoutY="165.0" mnemonicParsing="false" onAction="#clickMenuDead" prefHeight="66.0" prefWidth="246.0" style="-fx-background-color: RGB(35,23,100);" text="Menu" textFill="WHITE">
+         <font>
+            <Font name="Bowlby One SC Regular" size="28.0" />
+         </font></Button>
+      <Button layoutX="619.0" layoutY="253.0" mnemonicParsing="false" onAction="#clickPlayAgain" prefHeight="66.0" prefWidth="245.0" style="-fx-background-color: RGB(35,23,100);" text="Play Again" textFill="WHITE">
+         <font>
+            <Font name="Bowlby One SC Regular" size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
